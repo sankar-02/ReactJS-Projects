@@ -6,6 +6,12 @@ import Welcome from './components/Welcome';
 import Hello from './components/Hello';
 import Message from './components/Message';
 import Counter from './components/Counter';
+import FunctionClick from './components/FunctionClick';
+import ClassClick from './components/ClassClick';
+import EventBind from './components/EventBind';
+import ParentComponent from './components/ParentComponent';
+import UserGreetings from './components/UserGreetings';
+import NameList from './components/NameList';
 
 class App extends Component {
   render() {
@@ -14,8 +20,14 @@ class App extends Component {
         {/* <Greet />
         <Welcome name= "Sankar"/>
         <Hello name= "Sankar" />
-        <Message /> */}
-        <Counter />
+        <Message /> 
+        <Counter /> 
+        <FunctionClick /> 
+        <ClassClick /> 
+        <EventBind />
+        <ParentComponent />
+        <UserGreetings /> */}
+        <NameList />
       </div>
     )
   }
